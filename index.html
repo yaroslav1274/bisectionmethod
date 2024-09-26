@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Метод ділення навпіл</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="input_container">
+    <div class="input-box">
+      <input type="number" name="StartX" id="StartX" placeholder="Початкове X">
+      <input type="number" name="EndX" id="EndX" placeholder="Кінцеве X">
+    </div>
+    <div class="input-box">
+      <input type="number" step="0.1" name="Step" id="Step" placeholder="Крок табулювання">
+      <input type="number" name="Epsilon" id="Epsilon" placeholder="Точність">
+    </div>
+    <div class="input-box">
+      <button id="check">Check</button>
+    </div>
+  </div>
+
+  <div class="results">
+    <p id="results"></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
