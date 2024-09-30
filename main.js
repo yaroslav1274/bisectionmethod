@@ -58,8 +58,8 @@ function run() {
     }
   }
 
-  resultsField.innerHTML = `Iнтервал локалізацiї кореня: [${a.toFixed(1)}, ${b.toFixed(1)}] \n 
-  Наближене значення кореня: ${c.toFixed(10)} \n
+  resultsField.innerHTML = `Iнтервал локалізацiї кореня: [${a.toFixed(1)}, ${b.toFixed(1)}] <br> 
+  Наближене значення кореня: ${c.toFixed(10)} <br>
   Кiлькiсть подiлiв iнтервалу навпiл: ${count}`;
 }
 
